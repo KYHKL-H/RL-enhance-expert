@@ -12,4 +12,5 @@ Here are the implement steps for Atlanta as an example.
 
 # Reference
 [1] Serina Y Chang*, Emma Pierson*, Pang Wei Koh*, Jaline Gerardin, Beth Redbird, David Grusky, and Jure Leskovec. "Mobility network models of COVID-19 explain inequities and inform reopening". Nature, 2020.
+
 [2] Chen, Lin and Xu, Fengli and Han, Zhenyu and Tang, Kun and Hui, Pan and Evans, James and Li, Yong. "Strategic COVID-19 vaccine distribution can simultaneously elevate social utility and equity". arXiv preprint, 2021.
