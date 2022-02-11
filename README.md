@@ -12,9 +12,13 @@ Here are the implement steps for Atlanta as an example.
 5. Get the CBG specific death rate in Atlanta '/data/Atlanta/cbg_death_rates_original_Atlanta' with method in [2].
 6. Run '/code/data_process.py' and get the processed contact network data in Atlanta '/data/Atlanta/Atlanta_Sandy_Springs_Roswell_GA_2020-03-01_to_2020-05-02_processed.pkl'.
 7. Run '/code/aggregate.py' and get the community division indexes in Atlanta '/data/Atlanta/community_index_fluid.npy'.
-8. 
+8. Run '/code/process_aggregate.py' and get the aggregated contact network data in Atlanta '/data/Atlanta/Atlanta_Sandy_Springs_Roswell_GA_2020-03-01_to_2020-05-02_processed_aggregate.pkl' and the corresponding sizes and age structures of the communities '/data/Atlanta/aggregate_sizes.npy', '/data/Atlanta/aggregate_ages.npy'
+9. Run '/code/train.py' for model training and the model are saved in '/model/Atlanta' for testing and analyzing.
+10. Run '/code/baseline.py' for baseline results roll out.
+
+Python files in '/code' not mentioned above are imported by the mentioned ones.
 
 # Reference
 [1] Serina Y Chang*, Emma Pierson*, Pang Wei Koh*, Jaline Gerardin, Beth Redbird, David Grusky, and Jure Leskovec. "Mobility network models of COVID-19 explain inequities and inform reopening". Nature, 2020.
 
-[2] Chen, Lin and Xu, Fengli and Han, Zhenyu and Tang, Kun and Hui, Pan and Evans, James and Li, Yong. "Strategic COVID-19 vaccine distribution can simultaneously elevate social utility and equity". arXiv preprint, 2021.
+[2] Lin Chen, Fengli Xu, Zhenyu Han, Kun Tang, Pan Hui, James Evans, and Yong Li. "Strategic COVID-19 vaccine distribution can simultaneously elevate social utility and equity". arXiv preprint, 2021.
