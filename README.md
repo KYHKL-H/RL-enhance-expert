@@ -16,7 +16,7 @@ Here are the implementation steps for Atlanta experiments as an example.
 9. Run '/code/train.py' for model training and the model are saved in '/model/Atlanta' for testing and analyzing.
 10. Run '/code/baseline.py' for baseline results roll out.
 
-Python files in '/code' not mentioned above are imported by the mentioned ones.
+Other Python files in '/code' not mentioned above are imported by the mentioned ones.
 
 # Reference
 [1] Serina Y Chang*, Emma Pierson*, Pang Wei Koh*, Jaline Gerardin, Beth Redbird, David Grusky, and Jure Leskovec. "Mobility network models of COVID-19 explain inequities and inform reopening". Nature, 2020.
